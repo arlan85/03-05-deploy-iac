@@ -25,12 +25,12 @@ variable "tags" {
 
 variable "instance_type" {
   type    = string
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "root_volume_size" {
   type    = string
-  default = 50
+  default = 8
 }
 
 variable "production" {
